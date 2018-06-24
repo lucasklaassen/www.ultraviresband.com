@@ -1094,6 +1094,15 @@ Hero Slider
   -o-background-size: cover;
 }
 
+@media (max-width: 1050px) {
+  .hero-slider .slides li {
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+  }
+}
+
 /* Caption */
 .titan-caption {
   position: relative;
