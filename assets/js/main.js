@@ -1,5 +1,3 @@
-console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55');
-
 /* ---------------------------------------------- /*
  * Preloader
  /* ---------------------------------------------- */
@@ -20,7 +18,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
         });
         wow.init();
 
-
         /* ---------------------------------------------- /*
          * Scroll top
          /* ---------------------------------------------- */
@@ -37,7 +34,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             $('html, body').animate({ scrollTop: 0 }, 'slow');
             return false;
         });
-
 
         /* ---------------------------------------------- /*
          * Initialization General Scripts for all pages
@@ -95,7 +91,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             }
         }
 
-
         /* ---------------------------------------------- /*
          * Home section effects
          /* ---------------------------------------------- */
@@ -137,7 +132,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             });
         }
 
-
         /* ---------------------------------------------- /*
          * Rotate
          /* ---------------------------------------------- */
@@ -147,7 +141,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             separator: "|",
             speed: 3000
         });
-
 
         /* ---------------------------------------------- /*
          * Transparent navbar animation
@@ -233,7 +226,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             }
         });
 
-
         /* ---------------------------------------------- /*
          * Video popup, Gallery
          /* ---------------------------------------------- */
@@ -255,7 +247,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                 tError: 'The image could not be loaded.'
             }
         });
-
 
         /* ---------------------------------------------- /*
          * Portfolio
@@ -294,7 +285,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             return false;
         });
 
-
         /* ---------------------------------------------- /*
          * Testimonials
          /* ---------------------------------------------- */
@@ -306,7 +296,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             });
         }
 
-
         /* ---------------------------------------------- /*
          * Post Slider
          /* ---------------------------------------------- */
@@ -317,7 +306,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                 smoothHeight: true,
             });
         }
-
 
         /* ---------------------------------------------- /*
          * Progress bar animations
@@ -332,7 +320,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             });
         });
 
-
         /* ---------------------------------------------- /*
          * Funfact Count-up
          /* ---------------------------------------------- */
@@ -343,7 +330,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                 $(this).find('.count-to').countTo({from: 0, to: number, speed: 1200, refreshInterval: 30});
             });
         });
-
 
         /* ---------------------------------------------- /*
          * Youtube video background
@@ -374,7 +360,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             $(this).toggleClass('fa-volume-off fa-volume-up');
             return false;
         });
-
 
         /* ---------------------------------------------- /*
          * Owl Carousel
@@ -417,7 +402,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
 
         });
 
-
         /* ---------------------------------------------- /*
          * Blog masonry
          /* ---------------------------------------------- */
@@ -425,7 +409,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
         $('.post-masonry').imagesLoaded(function() {
             $('.post-masonry').masonry();
         });
-
 
         /* ---------------------------------------------- /*
          * Scroll Animation
@@ -456,7 +439,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
 
             $cfsubmit.text("Sending...");
 
-
             $.ajax(
                 {
                     url: formURL,
@@ -478,7 +460,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
 
         });
 
-
         /*===============================================================
          Working Request A Call Form
          ================================================================*/
@@ -495,7 +476,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                 cfsubmitText = $cfsubmit.text();
 
             $cfsubmit.text("Sending...");
-
 
             $.ajax(
                 {
@@ -518,7 +498,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
 
         });
 
-
         /*===============================================================
          Working Reservation Form
          ================================================================*/
@@ -535,7 +514,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                 cfsubmitText = $cfsubmit.text();
 
             $cfsubmit.text("Sending...");
-
 
             $.ajax(
                 {
@@ -558,7 +536,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             return false;
 
         });
-
 
         /* ---------------------------------------------- /*
          * Subscribe form ajax
@@ -595,7 +572,6 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             });
 
         });
-
 
         /* ---------------------------------------------- /*
          * Google Map
@@ -847,5 +823,3 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
 
     });
 })(jQuery);
-
-

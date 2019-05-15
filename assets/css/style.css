@@ -5,6 +5,7 @@ html {
   overflow-y: scroll;
   overflow-x: hidden;
   -ms-overflow-style: scrollbar;
+  background: #000;
 }
 
 body {
@@ -1247,6 +1248,16 @@ General Styles - Owlcarousel
 /*--------------------------------------------------------------
 	Navbar
 --------------------------------------------------------------*/
+
+.navbar-header {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-header a {
+  color: #fff;
+}
+
 .navbar-custom {
   background-color: rgba(10, 10, 10, 0.9);
   border: 0;
@@ -1257,6 +1268,9 @@ General Styles - Owlcarousel
   letter-spacing: 3px;
   font-size: 11px;
   transition: background, padding 0.4s ease-in-out 0s;
+  /* display: flex;
+  align-items: center;
+  width: 100%; */
 }
 
 .navbar a {
@@ -1377,6 +1391,29 @@ General Styles - Owlcarousel
 /*--------------------------------------------------------------
 	Header
 --------------------------------------------------------------*/
+
+.d-flex {
+  display: flex !important;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.sm-flex-column-lg-flex-row {
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 767px) {
+  .sm-flex-column-lg-flex-row {
+    flex-direction: column;
+  }
+}
+
 .home-section {
   position: relative;
   background-color: #fff;
@@ -1385,6 +1422,45 @@ General Styles - Owlcarousel
   width: 100%;
   z-index: 0;
   background-size: cover;
+}
+
+.bio-wrapper {
+  align-items: center;
+  justify-content: center;
+  max-width: 960px;
+  margin-bottom: 150px;
+}
+
+.center-it-all {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background: #000;
+  padding-top: 200px;
+}
+
+.bio-summary {
+  width: 50%;
+  color: #999;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .center-it-all {
+    padding-top: 65px;
+  }
+  .bio-summary {
+    width: 80%;
+  }
+}
+
+.bio p {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fff;
+  text-align: center;
 }
 
 .titan-title-size-1 {
